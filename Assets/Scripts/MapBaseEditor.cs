@@ -19,5 +19,10 @@ public class MapBaseEditor : Editor
         {
             mapBase.CubeFrame(mapBase.FrameSize);
         }
+
+        if (GUILayout.Button("Generate cross"))
+        {
+            mapBase.Cross(mapBase.FrameSize);
+        }
     }
 }

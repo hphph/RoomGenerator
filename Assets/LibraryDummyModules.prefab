@@ -372,8 +372,9 @@ MonoBehaviour:
     ConnectionId: 1
     ExcludedDummyModules: []
     Rotation: 4
-  Probability: 30
-  Tags: []
+  Probability: 1
+  Tags:
+  - air
 --- !u!64 &4370476143187581989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -557,7 +558,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -749,7 +750,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -837,7 +838,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6456
+  m_VersionIndex: 6460
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -890,7 +891,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1065,7 +1067,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1115,7 +1117,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 5910
+  m_VersionIndex: 5914
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1168,7 +1170,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1345,7 +1348,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1411,7 +1414,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6459
+  m_VersionIndex: 6463
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1464,7 +1467,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1656,7 +1660,7 @@ MonoBehaviour:
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 0}
-    m_SubmeshIndex: 0
+    m_SubmeshIndex: 1
     m_ManualUV: 0
     elementGroup: -1
     m_TextureGroup: -1
@@ -1719,7 +1723,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 5907
+  m_VersionIndex: 5942
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1772,7 +1776,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2371,7 +2376,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6462
+  m_VersionIndex: 6466
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2424,7 +2429,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2618,7 +2623,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 5913
+  m_VersionIndex: 5917
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2671,7 +2676,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2684,7 +2689,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2967,7 +2972,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 4fc3967c680d98c4e9ec35ccf8af01fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3397,7 +3402,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6462
+  m_VersionIndex: 6466
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3450,7 +3455,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3646,7 +3651,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 5913
+  m_VersionIndex: 5917
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3699,7 +3704,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69df87a6fcf22794a9331254b06d6ef1, type: 2}
+  - {fileID: 2100000, guid: 3914058b81e320944b4c5a6de6965ea4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

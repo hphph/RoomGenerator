@@ -87,8 +87,9 @@ public class FiniteMap : MonoBehaviour
             }
         }
 
+        entropySortedQueue.Add(mapData[7, 2, 8], mapData[7, 2, 8].Entropy());
         // entropySortedQueue.Add(mapData[size.x/2, size.y/2, size.z/2], mapData[size.x/2, size.y/2, size.z/2].Entropy());
-        entropySortedQueue.Add(mapData[0, 0, 0], mapData[0, 0, 0].Entropy());
+        // entropySortedQueue.Add(mapData[0, 0, 0], mapData[0, 0, 0].Entropy());
     }
 
     public ModuleSocket GetSocketAt(Vector3Int position)

@@ -79,7 +79,8 @@ MonoBehaviour:
     prefab: {fileID: 217427452177854955, guid: cd1bebac88c109d4090c550795149a91, type: 3}
     rotation: 0
     modulesFromDummy: 4
-    tags: []
+    tags:
+    - air
     index: 4
     neighbourPosibilities:
     - neighbourIndexes: 04000000050000000600000007000000180000001b00000033000000
@@ -92,7 +93,8 @@ MonoBehaviour:
     prefab: {fileID: 217427452177854955, guid: cd1bebac88c109d4090c550795149a91, type: 3}
     rotation: 1
     modulesFromDummy: 4
-    tags: []
+    tags:
+    - air
     index: 5
     neighbourPosibilities:
     - neighbourIndexes: 04000000050000000600000007000000180000001b00000033000000
@@ -105,7 +107,8 @@ MonoBehaviour:
     prefab: {fileID: 217427452177854955, guid: cd1bebac88c109d4090c550795149a91, type: 3}
     rotation: 2
     modulesFromDummy: 4
-    tags: []
+    tags:
+    - air
     index: 6
     neighbourPosibilities:
     - neighbourIndexes: 04000000050000000600000007000000180000001b00000033000000
@@ -118,7 +121,8 @@ MonoBehaviour:
     prefab: {fileID: 217427452177854955, guid: cd1bebac88c109d4090c550795149a91, type: 3}
     rotation: 3
     modulesFromDummy: 4
-    tags: []
+    tags:
+    - air
     index: 7
     neighbourPosibilities:
     - neighbourIndexes: 04000000050000000600000007000000180000001b00000033000000

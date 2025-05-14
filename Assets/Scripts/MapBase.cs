@@ -70,4 +70,21 @@ public class MapBase : ScriptableObject
         }
     }
 
+    public void Cross(Vector3Int size)
+    {
+        BaseModulesPositions = new List<Vector3Int>(size.x + size.y + size.z);
+        for (int i = Position.z - size.z/2; i < Position.z + size.z/2 + 1; i++)
+        {
+            if(i != Position.z) BaseModulesPositions.Add(new Vector3Int(Position.x, Position.y, i));
+        }
+        for (int i = Position.y - size.y/2; i < Position.y + size.y/2 + 1; i++)
+        {
+            if(i != Position.y) BaseModulesPositions.Add(new Vector3Int(Position.x, i, Position.z));
+        }
+        for (int i = Position.x - size.x/2; i < Position.x + size.x/2 + 1; i++)
+        {
+            if(i != Position.x) BaseModulesPositions.Add(new Vector3Int(i, Position.y, Position.z));
+        }
+        BaseModulesPositions.Add(new Vector3Int(Position.x, Position.y, Position.z));
+    }
 }
